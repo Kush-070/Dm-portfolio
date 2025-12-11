@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Piyush Tilke — Digital Marketing Portfolio</title>
+  <meta name="description" content="Portfolio of Piyush Tilke — Digital Marketer specialized in Google Ads, Meta Ads, SEO, content & analytics. Open for internships." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--bg:#ffffff;--card:#ffffff;--muted:#6b7280;--accent:#0F4C81;--accent-2:#ff8a00;--glass:rgba(15,76,129,0.06)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#0f1720;background:linear-gradient(180deg,#fbfbfc 0%, #fff 100%)}
+    a{color:var(--accent);text-decoration:none}
+    header{position:sticky;top:0;background:rgba(255,255,255,0.8);backdrop-filter:blur(6px);border-bottom:1px solid #eef2f6;z-index:50}
+
+    .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+
+    nav a{margin-left:18px;font-weight:600;color:var(--muted)}
+    main{max-width:1100px;margin:36px auto;padding:0 20px}
+
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center}
+    .headline{font-family:'Playfair Display',serif;font-size:42px;line-height:1.1;margin:0;color:#081029}
+    .sub{color:var(--muted);margin-top:12px;font-size:16px}
+    .cta{margin-top:18px;display:flex;gap:12px}
+
+    .btn-primary{background:var(--accent);color:white;padding:12px 16px;border-radius:10px;font-weight:700}
+    .btn-ghost{background:transparent;border:1px solid #e6eef8;padding:12px 16px;border-radius:10px}
+
+    .btn-small{
+      display:block;width:100%;text-align:center;padding:10px 14px;margin-top:8px;
+      border-radius:10px;font-weight:600;
+    }
+    .btn-linkedin{background:#0A66C2;color:white;}
+    .btn-resume{background:#10b981;color:white;}
+
+    .profile-card{background:var(--card);padding:20px;border-radius:14px;box-shadow:0 10px 30px var(--glass);text-align:center}
+    .profile-card img{width:220px;height:220px;border-radius:12px;object-fit:cover;border:6px solid rgba(255,255,255,0.1)}
+
+    .kpis{display:flex;gap:12px;justify-content:center;margin-top:16px}
+    .kpi{background:linear-gradient(180deg,#fff,#fbfcff);padding:10px 14px;border-radius:10px}
+
+    section{margin-top:42px}
+    .section-header{display:flex;align-items:end;justify-content:space-between}
+    .section-title{font-size:22px;margin:0}
+
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px}
+    .project-thumb{height:160px;border-radius:10px;background-size:cover;background-position:center}
+
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .tag{background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px}
+
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:10px}
+    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{background:#f5f8fb;padding:8px 12px;border-radius:999px;font-weight:600}
+
+    .grid-2{display:grid;grid-template-columns:1fr 360px;gap:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid #eef2f7;box-shadow:0 6px 20px var(--glass)}
+
+    .contact-grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+
+    footer{margin:32px 0;text-align:center;color:var(--muted);font-size:14px}
+
+    @media(max-width:940px){
+      .hero{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      .profile-card img{width:180px;height:180px}
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="nav">
+    <div class="brand">
+      <div class="logo">PT</div>
+      <div>
+        <div style="font-weight:700">Piyush Tilke</div>
+        <div style="font-size:12px;color:var(--muted)">Digital Marketing • Performance & Organic Growth</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1 class="headline">I build high-ROI digital campaigns & organic growth systems.</h1>
+    <p class="sub">Specialised in Google Ads, Meta Ads, SEO, Analytics & Content Strategy.</p>
+
+    <div class="cta">
+      <a class="btn-primary" href="#projects">View Work</a>
+      <a class="btn-ghost" href="#contact">Hire / Intern</a>
+    </div>
+
+    <!-- INTRODUCTION SECTION -->
+    <div style="margin-top:28px" class="card">
+      <h3 style="margin:0">Introduction</h3>
+      <p style="color:var(--muted);margin-top:8px">
+        Hi, I’m <strong>Piyush Tilke</strong>, a digital marketer skilled in SEO, Google Ads, Meta Ads,
+        social media marketing, content creation, and analytics.  
+        I believe in using <strong>data + creativity</strong> to deliver real marketing impact.
+      </p>
+    </div>
+  </div>
+
+  <aside class="profile-card">
+    <img src="https://i.ibb.co/DHgMx7vK/generation-e02a510f-3deb-4393-b9be-333822fe2d67.jpg" alt="Profile">
+    <div class="kpis">
+      <div class="kpi"><strong>3+</strong><div style="font-size:12px;color:var(--muted)">Months</div></div>
+      <div class="kpi"><strong>3</strong><div style="font-size:12px;color:var(--muted)">Projects</div></div>
+      <div class="kpi"><strong>6+</strong><div style="font-size:12px;color:var(--muted)">Certs</div></div>
+    </div>
+  </aside>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header"><h2 class="section-title">About & Skills</h2></div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>About Me</h3>
+
+      <p style="color:var(--muted)">
+        I’m a digital marketing enthusiast with a background in EXTC engineering, which gives me a strong foundation in analytical thinking, technical understanding, and problem-solving.
+        My expertise includes performance marketing, SEO, social media strategy, and content creation.
+      </p>
+
+      <p style="color:var(--muted);margin-top:10px">
+        I enjoy helping businesses grow through smart, data-driven digital strategies and clean, impactful creative work.
+      </p>
+
+      <h4>Skills</h4>
+      <div class="skills">
+        <div class="skill">SEO</div>
+        <div class="skill">Google Ads</div>
+        <div class="skill">Meta Ads</div>
+        <div class="skill">Content</div>
+        <div class="skill">Analytics</div>
+        <div class="skill">Keyword Research</div>
+      </div>
+    </div>
+
+    <!-- UPDATED TOOLS + CERTIFICATIONS -->
+    <aside class="card">
+      <h4>Tools I Use</h4>
+      <div class="skills">
+        <div class="skill">Google Ads</div>
+        <div class="skill">Meta Manager</div>
+        <div class="skill">Analytics</div>
+        <div class="skill">Search Console</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Mailchimp</div>
+      </div>
+
+      <h4 style="margin-top:18px">Certifications</h4>
+      <div class="skills">
+        <div class="skill">Google Ads Certification</div>
+        <div class="skill">Google Analytics</div>
+        <div class="skill">HubSpot Marketing</div>
+        <div class="skill">Semrush Marketing</div>
+        <div class="skill">SEO Fundamentals</div>
+        <div class="skill">Canva Design Basics</div>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header">
+    <h2 class="section-title">Selected Projects</h2>
+  </div>
+
+  <div class="projects">
+
+    <!-- GOOGLE ADS -->
+    <div class="card">
+      <div class="project-thumb" style="background-image:url('https://i.ibb.co/z9Y3Pvm.png')"></div>
+      <h3>Google Ads — Bicycle Rental (Search)</h3>
+      <p style="color:var(--muted)">
+        This project involves the strategic creation and management of a Google Ads Search Campaign for a local bicycle rental business. We focused on researching high-intent keywords like "bike rental near me" and "hourly bicycle hire" to ensure ad spend efficiency. The primary objective is to drive direct online bookings and significantly increase customer acquisition during peak seasons.
+      </p>
+
+      <div class="tags"><div class="tag">Google Ads</div><div class="tag">Search</div></div>
+
+      <div class="gallery">
+        <img src="https://i.ibb.co/KjZH9HCr/Screenshot-2025-12-09-195515.png">
+        <img src="https://i.ibb.co/8DPGM2Kg/Screenshot-2025-12-09-195503.png">
+        <img src="https://i.ibb.co/Hf2xZnBb/Screenshot-2025-12-09-195435.png">
+        <img src="https://i.ibb.co/Rp17jyq1/Screenshot-2025-12-09-195424.png">
+      </div>
+    </div>
+
+    <!-- META ADS -->
+    <div class="card">
+      <div class="project-thumb" style="background-image:url('https://i.ibb.co/NnpCFWS4.png')"></div>
+      <h3>Meta Ads — Bicycle Rental (Traffic)</h3>
+      <p style="color:var(--muted)">
+        This project is a Meta Ads Traffic Campaign executed to drive high volumes of relevant users from Facebook and Instagram to the bicycle rental website. Using interest-based and geo-targeted audiences (e.g., local tourists, outdoor enthusiasts), the campaign utilized engaging visual ads to capture attention and generate low-cost link clicks. This strategy aims to fill the top of the marketing funnel and build strong retargeting pools for future conversion campaigns.
+      </p>
+
+      <div class="tags"><div class="tag">Meta Ads</div><div class="tag">Traffic</div></div>
+
+      <div class="gallery">
+        <img src="https://i.ibb.co/N4yB4Sq/Screenshot-2025-12-09-195226.png">
+        <img src="https://i.ibb.co/9k6Kx9z3/Screenshot-2025-12-09-195044.png">
+        <img src="https://i.ibb.co/wZKtrdvg/Screenshot-2025-12-09-195026.png">
+        <img src="https://i.ibb.co/MynQBFYw/Screenshot-2025-12-09-195010.png">
+      </div>
+    </div>
+
+    <!-- JEWELLERY CONTENT -->
+    <div class="card">
+      <div class="project-thumb" style="background-image:url('https://i.ibb.co/MyCwySt3.png')"></div>
+      <h3>Content & Social — Jewellery Shop</h3>
+      <p style="color:var(--muted)">
+        This project centers on developing and executing a comprehensive Content Creation and Social Media Marketing strategy for a local Jewellery Shop. We focused on crafting high-quality, aspirational content, including product photography and behind-the-scenes videos, tailored for platforms like Instagram and Pinterest. The strategy aims to significantly increase brand awareness, drive meaningful audience engagement, and position the shop as a curator of unique, desirable pieces.
+      </p>
+
+      <div class="tags"><div class="tag">Content</div><div class="tag">Social</div></div>
+
+      <div class="gallery">
+        <img src="https://i.ibb.co/yB7zQV5s/Screenshot-2025-12-09-200637.png">
+        <img src="https://i.ibb.co/Y4n2zYyj/Screenshot-2025-12-09-200657.png">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header"><h2 class="section-title">Experience & Certificates</h2></div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px">
+
+    <div class="card">
+      <h4>Digital Marketing Intern — Jewellery Shop</h4>
+      <img src="https://i.ibb.co/7xfJw6LQ/Screenshot-2025-12-10-201449.png" style="width:100%;border-radius:8px;margin:10px 0;">
+      <ul style="color:var(--muted)">
+        <li>Created branded social content</li>
+        <li>Developed weekly posting schedule</li>
+        <li>Improved engagement & brand identity</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Service Intern — Renutron Power Solutions</h4>
+      <img src="https://i.ibb.co/SZ4kzdx/Whats-App-Image-2025-12-10-at-8-05-43-PM.jpg" style="width:100%;border-radius:8px;margin:10px 0;">
+      <ul style="color:var(--muted)">
+        <li>Diagnosed and repaired equipment</li>
+        <li>Handled service operations</li>
+        <li>Strengthened troubleshooting skills</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+
+  <div class="contact-grid">
+    <div class="card">
+      <p style="color:var(--muted)">Open to internships & freelance projects.</p>
+
+      <form action="mailto:piyushtilke@gmail.com" method="post" enctype="text/plain">
+        <input name="Name" placeholder="Your name" style="width:100%;padding:10px;margin-bottom:8px;border-radius:8px;border:1px solid #eef4fb">
+        <input name="Email" placeholder="Email" style="width:100%;padding:10px;margin-bottom:8px;border-radius:8px;border:1px solid #eef4fb">
+        <textarea name="Message" placeholder="Message" style="width:100%;padding:10px;border-radius:8px;border:1px solid #eef4fb;height:120px"></textarea>
+        <button class="btn-primary" type="submit" style="margin-top:10px">Send Message</button>
+      </form>
+    </div>
+
+    <aside class="card">
+      <h4>Quick Contact</h4>
+      <p style="color:var(--muted);margin-bottom:12px">
+        <strong>Email:</strong> piyushtilke@gmail.com<br>
+        <strong>Phone:</strong> 8999123412
+      </p>
+
+      <a class="btn-small btn-linkedin" href="https://www.linkedin.com/in/piyushtilke" target="_blank">
+        🔗 Visit LinkedIn Profile
+      </a>
+      <a class="btn-small btn-resume" href="https://drive.google.com/file/d/1kHHHaT68QnBKEOzKjRAG7mZ2VvJjozz5/view?usp=sharing" target="_blank">
+        📄 Download Resume
+      </a>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div style="max-width:1100px;margin:18px auto;padding:0 20px">
+    Designed & built by <strong>Piyush Tilke</strong> • © <span id="yr"></span>
+  </div>
+</footer>
+
+</main>
+
+<script>
+  document.getElementById('yr').innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
